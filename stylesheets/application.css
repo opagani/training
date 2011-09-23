@@ -33,6 +33,7 @@ body {
   color: #efefef;
   background: #0D509C;
   background: -webkit-radial-gradient(circle, #85a9ea, #11588d);
+  background: -moz-radial-gradient(circle, #85a9ea, #11588d);
   padding-top: 80px;
   padding-bottom: 15px;
   position: relative;
@@ -68,6 +69,7 @@ body {
 .masthead p {
   font-size: 14px;
   font-weight: 300;
+  color: white;
 }
 
 .training_description {
