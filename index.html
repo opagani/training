@@ -45,10 +45,8 @@
           <div class="pull-right">
           <ul class="nav">
             <li class="active"><a href="#overview">Overview</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#grid-system">Grid</a></li>
-            <li><a href="#layouts">Layouts</a></li>
-            <li><a href="#typography">Type</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#venue">Venue</a></li>
           </ul>
           </div>
         </div> 
@@ -56,7 +54,7 @@
     </div>
 
 
-    <header class="masthead" id="overview">
+    <header class="masthead" id="masthead">
       <div class="inner">
         <div class="container">
           <h1>
@@ -71,13 +69,14 @@
       </div>
     </header>
 
-    <div class="container training_description">
+    <div class="container training_description" id="overview">
+      <div class="page-header">
+        <h1>What will I learn?</h1>
+      </div>
       <div class="row">
 
         <div class="span11">
-          <div class="class-info">
-            <h2>What is beautiful front end code?</h2>
-          </div><!-- end .class-info -->
+<!-- end .class-info -->
           <div class="course-material">
             <h3>Jasmine</h3> 
 
@@ -117,16 +116,15 @@
             backbone.js, including:</p> 
 
             <ul> 
-              <li>Views</li> 
-              <li>Handlebars templates</li> 
+              <li>Views</li>
               <li>Models</li> 
-              <li>Controllers</li> 
-              <li>Integration with server side code</li> 
+              <li>Routers</li> 
+              <li>Templating frameworks</li> 
+              <li>Integration with Rails, including the Rails 3.1 asset pipeline</li> 
             </ul>
 
           </div><!-- end .course-material -->
         </div>
-
         <aside class="span5">
         <div class="well">
           <h3>Details</h3>
@@ -143,6 +141,12 @@
               <td>How Much?</td>
               <td>$695</td>
             </tr>
+            <tr>
+              <td>What Should I Bring?</td>
+              <td>
+                Your own laptop
+              </td>
+            </tr>
           </table>
           <div class="button-container">
             <a href="http://gaslightjs092011.eventbrite.com/" class="btn primary">Sign up!</a>
@@ -151,7 +155,49 @@
         </aside>
 
       </div>
-
+      
     </div>
+    
+    <div id="">
+    <section class="container" id="instructors">
+      <div class="page-header">
+        <h1>Instructors</h1>
+      </div><!-- end .class-info -->
+      <div class="row">
+        <div class="span10">
+          <div class="course-material">
+          Chris Nelson is a software developer who hails from the fair city of Cincinnati, Ohio. He has been developing web applications for about 15 years and is passionate about finding better ways to do it.
+          He has presented and conducted training sessions at conferences including JRubyConf, Scottish Ruby Conference, Railsconf, and Rubyconf. 
+          Lately Chris has been having a blast building rich client web applications using
+          backbone.js, coffeescript, and rails.
+          </div>
+        </div>
+        <div class="span6">
+          Here's a picture o Chris
+        </div>
+      </div>
+    </section>
+    
+    <section class="container" id="venue">
+      <div class="page-header">
+        <h1>Venue</h1>
+      </div>
+      <div class="row">
+        <div class="span8">
+          <div class="class-info">
+            <h2>Mission Bay Conference Center</h2>
+          </div><!-- end .class-info -->
+          <div class="course-material">
+          Recently home to GoGaRuCo, the Mission Bay Conference Center at UCSF is located just south of downtown San Francisco, and convenient to Oakland and Berkeley.
+          MBCC is close to AT&T Ballpark, shopping areas, hotels and entertainment.
+      
+          </div>
+        </div>
+        <div class="span8">
+          <iframe width="300" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=1675+Owens+Street+San+Francisco,+CA+94143-3008&amp;oe=UTF-8&amp;ie=UTF8&amp;hq=&ampgl=us&amp;t=h&amp;z=14&amp;ll=37.767832,-122.394186&amp;output=embed"></iframe>
+        </div>
+      </div>
+    </section>    
+    
   </body>
 </html>
