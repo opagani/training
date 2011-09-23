@@ -1,0 +1,87 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+.topbar-inner {
+  background: #b2d2f6;
+}
+
+.topbar li.active a {
+  background: #b2d2f6 !important;
+  color: white;
+}
+
+.topbar li.active a:hover {
+  color: black;
+}
+
+.topbar a {
+  color: black;
+}
+
+.topbar .logo {
+  padding-right: 20px;
+  padding-top: 4px;
+}
+
+.topbar .nav a{
+  line-height: 29px;
+}
+
+.masthead {
+  text-align: center;
+  color: #efefef;
+  background: #0D509C;
+  background: -webkit-radial-gradient(circle, #85a9ea, #11588d);
+  padding-top: 80px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+
+.masthead h1 {
+  text-align: center;
+  font-size: 72px;
+  color: white;
+  text-shadow: -1px 0 2px #26558A, 0 1px 2px #26558A, 1px 0 2px #26558A, 0 -1px 2px #26558A;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.masthead h1 div {
+  font-size: 58px;
+  -moz-transform: rotate(-9deg);
+  -webkit-transform: rotate(-9deg);
+  position: absolute;
+  left: 250px;
+  top: 130px;
+  font-family: 'Vibur', cursive;
+}
+
+.masthead .lead {
+  font-size: 22px;
+  margin-bottom: 50px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 170px;
+}
+
+.masthead p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.training_description {
+  padding-top: 25px;
+}
+
+aside h3 {
+  text-align: center;
+}
+
+aside .button-container {
+  text-align: center;
+}
+
+table {
+  background: white;
+}
