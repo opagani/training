@@ -32,30 +32,30 @@ body {
   text-align: center;
   color: #efefef;
   background: #0D509C;
-  background: -webkit-radial-gradient(circle, #85a9ea, #11588d);
+  background: -webkit-radial-gradient(circle, #85a9ea, #142837);
   background: -moz-radial-gradient(circle, #85a9ea, #11588d);
-  padding-top: 80px;
-  padding-bottom: 15px;
+  padding-top: 105px;
+  padding-bottom: 40px;
   position: relative;
 }
 
 
 .masthead h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 100px;
   color: white;
   text-shadow: -1px 0 2px #26558A, 0 1px 2px #26558A, 1px 0 2px #26558A, 0 -1px 2px #26558A;
-  font-family: 'Coda Caption', sans-serif;
+  font-family: 'Rokkitt', serif;
 }
 
 .masthead h1 div {
-  font-size: 58px;
-  -moz-transform: rotate(-9deg);
-  -webkit-transform: rotate(-9deg);
+  font-size: 50px;
+  -moz-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
   position: absolute;
-  left: 250px;
-  top: 130px;
-  font-family: 'Vibur', cursive;
+  left: 240px;
+  top: 152px;
+  font-family: 'Yellowtail', cursive;
 }
 
 .masthead .lead {
