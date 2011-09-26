@@ -25,7 +25,7 @@ body {
 }
 
 .topbar .nav a{
-  line-height: 29px;
+  line-height: 49px;
 }
 
 .masthead {
@@ -34,7 +34,7 @@ body {
   background: #0D509C;
   background: -webkit-radial-gradient(circle, #85a9ea, #142837);
   background: -moz-radial-gradient(circle, #85a9ea, #11588d);
-  padding-top: 105px;
+  padding-top: 125px;
   padding-bottom: 40px;
   position: relative;
 }
