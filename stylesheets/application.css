@@ -36,7 +36,6 @@ body {
   background: -moz-radial-gradient(circle, #85a9ea, #11588d);
   padding-top: 125px;
   padding-bottom: 40px;
-  position: relative;
 }
 
 
@@ -53,9 +52,13 @@ body {
   -moz-transform: rotate(-12deg);
   -webkit-transform: rotate(-12deg);
   position: absolute;
-  left: 240px;
-  top: 152px;
+  left: 13%;
+  top: 25%;
   font-family: 'Yellowtail', cursive;
+}
+
+.masthead .container {
+  position: relative;
 }
 
 .masthead .lead {
