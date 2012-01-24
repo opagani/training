@@ -1,0 +1,6 @@
+# How to deploy
+
+* Clone this repo.
+* Do some stuff.
+* Commit those changes.
+* `git push origin gh-pages` where origin is your remote name.
